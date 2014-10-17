@@ -1,0 +1,58 @@
+body
+{
+    background-color: black;
+    font-family: sans-serif;
+}
+  
+.contenedorLogin
+{
+    margin-top: 200px;
+    text-align: center;
+}
+  
+.formulario
+{
+    background-color: #F3F3F3;
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 270px;
+    -webkit-animation: entrada 2s;
+}
+  
+.formulario a
+{
+    color: #7C96B7;
+}
+  
+.formulario h2
+{
+    color: #414848;
+}
+  
+.formulario p
+{
+    color: #7C96B7;
+}
+  
+.seccionBotones
+{
+    background-color: #D4DEDF;
+    border-radius:  0px 7px 7px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+  
+@-webkit-keyframes entrada
+{
+    -300%
+    {
+        margin-top: 2px;
+        -webkit-transform: rotate(360deg);
+    }
+    50%
+    {
+        margin: 0px auto;
+    }
+}
